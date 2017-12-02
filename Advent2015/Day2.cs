@@ -10,8 +10,6 @@ namespace Advent2015
 
         public Day2() => _boxes = File.ReadAllLines("./Day2_Input.txt");
 
-        public string Input => string.Join("\r\n", _boxes);
-
         /// <summary>
         ///     The elves are running low on wrapping paper, and so they need to submit an order for more. They have a list of the
         ///     dimensions (length l, width w, and height h) of each present, and only want to order exactly as much as they need.
