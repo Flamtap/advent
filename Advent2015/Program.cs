@@ -30,6 +30,7 @@ namespace Advent2015
                 case 2:
                     return new Day2();
                 case 3:
+                    return new Day3();
                 case 4:
                 case 5:
                 case 6:
