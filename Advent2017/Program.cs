@@ -30,7 +30,9 @@ namespace Advent2017
                 case 2:
                     return new Day2();
                 case 3:
+                    return new DummySolution();
                 case 4:
+                    return new Day4();
                 case 5:
                 case 6:
                 case 7:
